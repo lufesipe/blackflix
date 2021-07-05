@@ -1,0 +1,57 @@
+@media (min-width:480px){
+    .logo{
+        font-size: 3vw;
+    }
+}
+@media (min-width:950px){
+    .logo{
+        font-size: 2vw;
+    }
+    .container-left{
+        padding-left: 50px;
+    }
+    .nav-left a{
+        font-size: 1vw;
+        padding-right: 25px;
+    }
+    .container-right{
+        margin-right: 50px;
+    }
+    .nav-right a{
+        padding-right: 15px;
+    }
+    .nav-right img{
+        height: 25px;
+    }
+    .main-movie .container{
+        margin-left: 50px;
+    }
+    .main-movie .description{
+        margin-bottom: 10px;
+        width: 430px;
+        font-size: 16px;
+    }
+    .main-movie .movie-logo{
+        height: 170px;
+        margin-bottom: 10px;
+        margin-top: 15%;
+    }
+    .botao-info, .botao-play{
+        padding: 10px 20px;
+        font-size: 14px;
+        border-radius: 5px;
+    }
+    .botao-info img, .botao-play img{
+        height: 20px;
+    }
+    .my-list{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .carousel-films{
+        margin-left: 30px;
+    }
+    .box-film{
+        height: 230px;
+    }
+}

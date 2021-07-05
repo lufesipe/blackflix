@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/responsive.css">
+    <!--Owl css-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+    <title>Blackflix</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="container-left">
+                <h2 class="logo"><a href="index.html">BLACKFLIX</a></h2>
+                <nav class="nav-left">
+                    <a href="index.html">Home</a>
+                    <a href="#">Series</a>
+                    <a href="#">Movies</a>
+                    <a href="#my-list">My list</a>
+                </nav>
+            </div>
+            <div class="container-right">
+                <nav class="nav-right">
+                    <a href="#"><img src="https://super.so/icon/light/search.svg"></a>
+                    <a href="#"><img src="https://super.so/icon/light/bell.svg"></a>
+                    <a href="#"><img src="https://super.so/icon/light/user.svg"></a>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="main-movie">
+            <div class="container">
+                <img class="movie-logo" src="https://occ-0-1068-1722.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABQwIednOl-j3x5PUqrQp8iZgnT9tt45uc2C2cyYBizvjBQ9gwVAi6fO3_ZNC3sM-tzmDr-NEDtkbCeIN88vxx1gOSUU1oJzK3DG2.png?r=9b4">
+                <p class="description">The first black detective of the Colorado Springs Police Department teams up with a Jewish colleague to infiltrate a group of white supremacists.</p>
+                <div class="botoes">
+                    <a href="https://www.youtube.com/watch?v=bbOJwWSEUmo" target="_blank"><button role="button" class="botao-play" onmouseover="mouseEmCimaPlay()" onmouseout="mouseForaPlay()"><img src="https://super.so/icon/light/play.svg" class="play-logo">Play</button></a>
+                    <button role="button" class="botao-info" onmouseover="mouseEmCimaInfo()" onmouseout="mouseForaInfo()" onclick="abrirModal()"><img src="https://super.so/icon/light/info.svg" class="info-logo">More Info</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="carousel-films">
+        <h3 class="my-list" id="my-list">My list</h3>
+        <div class="owl-carousel owl-theme">
+            <div class="item"><a href="https://www.youtube.com/watch?v=wL4a4MafSjQ" target="_blank"><img class="box-film" src="https://www.themoviedb.org/t/p/original/zW1SQz3lDTxzAaYwpexsjlFO0no.jpg"></a></div>
+            <div class="item"><a href="https://www.youtube.com/watch?v=mDGV5UucTu8" target="_blank"><img class="box-film" src="https://www.themoviedb.org/t/p/original/sr7IWKxmLPzqpfiigc1LD9vG97W.jpg"></a></div>
+            <div class="item"><a href="https://www.youtube.com/watch?v=G6Th84oGDno" target="_blank"><img class="box-film" src="https://www.themoviedb.org/t/p/original/1aOmIEiyN8OPBu8LJuJBYkjAxKL.jpg"></a></div>
+            <div class="item"><a href="https://www.youtube.com/watch?v=hNCmb-4oXJA" target="_blank"><img class="box-film" src="https://www.themoviedb.org/t/p/original/5ncjQfUDr0oRKnfpdAXobJFbnao.jpg"></a></div>
+            <div class="item"><a href="https://www.youtube.com/watch?v=7kOTDDxRZ48" target="_blank"><img class="box-film" src="https://www.themoviedb.org/t/p/original/leAc4D6HaNEih2nW2NDwu02JZXD.jpg"></a></div>
+            <div class="item"><a href="https://www.youtube.com/watch?v=sx4sEvhYeVE" target="_blank"><img class="box-film" src="https://www.themoviedb.org/t/p/original/e9Pid0ZVhU3VrsQCxKdxQjSzKoY.jpg"></a></div>
+            <div class="item"><a href="https://www.youtube.com/watch?v=x24-QURldsE" target="_blank"><img class="box-film" src="https://www.themoviedb.org/t/p/original/WQVbDbIWyVOlGXcfO69hQh3gAT.jpg"></a></div>
+            <div class="item"><a href="https://www.youtube.com/watch?v=hetgBNnqees" target="_blank"><img class="box-film" src="https://www.themoviedb.org/t/p/original/9awmdcJsukBEY5Er8t4Vi1Ji7YX.jpg"></a></div>
+            <div class="item"><a href="https://www.youtube.com/watch?v=sqFJ7Dh39QI" target="_blank"><img class="box-film" src="https://www.themoviedb.org/t/p/original/lXMmcrGK5QL7Xc1SjmzutIQoA1I.jpg"></a></div>
+        </div>
+    </div>
+    <div class="bg-modal" id="modal">
+        <div class="modal">
+            <span class="close" onclick="fecharModal()">&times;</span>
+            <div class="modal-container-movie">
+                <img class="modal-movie-logo" src="https://occ-0-1068-1722.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABQwIednOl-j3x5PUqrQp8iZgnT9tt45uc2C2cyYBizvjBQ9gwVAi6fO3_ZNC3sM-tzmDr-NEDtkbCeIN88vxx1gOSUU1oJzK3DG2.png?r=9b4">
+                <button role="button" class="modal-botao-play""><img src="https://super.so/icon/dark/play.svg" class="modal-play-logo">Play</button>
+            </div>
+            <div class="modal-container-info">
+                <div class="modal-info-left">
+                    <p class="modal-numbers">2018<img src="https://logodownload.org/wp-content/uploads/2017/07/classificacao-14-anos-logo-7.png">2h 15m</p>
+                    <p class="modal-description">The first black detective of the Colorado Springs Police Department teams up with a Jewish colleague to infiltrate a group of white supremacists.</p>
+                </div>
+                <div class="modal-info-right">
+                    <p><b>Cast:</b> John David Washington, Adam Driver, Topher Grace, more</p>
+                    <p><b>Genres:</b> Social Issue Dramas, Movies Based on Real Life, Movies Based on Books</p>
+                    <p><b>This movie is:</b> Witty</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
