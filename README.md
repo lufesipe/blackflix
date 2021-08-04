@@ -1,6 +1,6 @@
 # Blackflix
 
-Projeto de releitura da página inicial da Netflix, apenas com conteúdos estrelados por atores negros.
+Projeto de releitura da página inicial da Netflix, apenas com conteúdos estrelados por atores negros. O site pode ser acessado [aqui](https://lufesipe.github.io/blackflix/).
 
 
 
